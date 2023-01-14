@@ -7,11 +7,11 @@
             <form method="GET" action="/home">
                 <div class="row mb-3">
                     <div class="col-md-4">
-                        <label for="exampleFormControlInput1" class="form-label">Job Description</label>
+                        <label for="description" class="form-label">Job Description</label>
                         <input id="description" type="text" class="form-control " name="description" value="{{ $description }}">  
                     </div>
                     <div class="col-md-4">
-                        <label for="exampleFormControlInput1" class="form-label">Location</label>
+                        <label for="location" class="form-label">Location</label>
                         <input id="location" type="text" class="form-control " name="location" value="{{ $location }}">  
                     </div>
 
