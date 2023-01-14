@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="col-md-4" style="text-align: right;">
                                     <span style="color: darkgrey;"> {{ $job['location'] }} </span>
-                                    <p> {{ $job['created_at'] }} </p>
+                                    <p> {{ \Carbon\Carbon::parse($job['created_at'])->diffForHumans() }} </p>
                                 </div>
                                 <hr/>
                             </div>
