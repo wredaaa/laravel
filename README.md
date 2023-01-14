@@ -19,7 +19,11 @@ where CONCAT(customer.cust_firstname, ' ', customer.cust_lastname) = 'John Micha
 order by account.acc_number asc, transaction.trs_date
 ```
 
-#Laravel test
+# Laravel test
+
+`specification` for laravel 9.*:
+  PHP ^8.0
+
 
 1. Copy .env.example and rename .env
 2. Setup config database in .env 
